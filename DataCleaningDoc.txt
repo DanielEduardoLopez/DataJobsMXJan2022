@@ -1,0 +1,18 @@
+Data Cleaning Steps
+
+1. Data types were adjusted for each column.
+2. Cases were changed.
+3. Extra blank spaces were trimmed.
+4. Duplicates were removed.
+5. Several unrelated data jobs were discarded by row filtering (invalid records).
+6. Rows were ordered.
+7. Location records were homogenized according to one criterion (full name of the Mexican State).
+8. Job name records were homogenized according the previously data jobs categories: Business Analyst, Data Analyst, Data Architect, Data Engineer and Data Scientist
+9. Not all the job positions had data about salaries, thus, the data set was duplicated in PowerQuery to analyze different portions of the data separately.
+10. The first data was cleaned to only keep the job positions with data about salaries to analyze the data about salaries. 
+11. The second data set was kept entirely to analize the total data jobs offer and the geographical distribution of the jobs.
+12. The salary column in the first data set was split to separate the salary lower and upper limits into two different colums.
+13. A new column with the average salary was created. When only one salary value was available, that value was retrieved without calculating an average.
+14. Unnecessary columns were removed from both data sets.
+15. Final cleaning steps were undertaken.
+ 
