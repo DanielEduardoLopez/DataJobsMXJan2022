@@ -2,7 +2,7 @@
 """
 Created on Mon Jan  3 18:38:06 2022
 
-@author: Daniel Eduardo López (delope)
+@author: Daniel Eduardo López (DanielEduardoLopez)
 
 Contact: daniel-eduardo-lopez@outlook.com
 """
